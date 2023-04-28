@@ -1,0 +1,156 @@
+.user__container {
+  display: block;
+  min-height: 100vh;
+  /* background-color: #0a192ff6; */
+}
+
+.users {
+  max-width: 50rem;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+}
+
+.content {
+  /* background-color: #202f46f6; */
+  max-width: 100%;
+  /* padding: 3rem 2rem; */
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.dark .content {
+  background-color: #202f46f6;
+}
+.light .content {
+  background-color: #fff;
+  color: black;
+}
+.content__header {
+  display: flex;
+  margin-left: 2rem;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.content__header img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+.content__text {
+  display: block;
+  margin: 2rem 0rem 0rem 2rem;
+}
+.container {
+  display: block;
+  margin-left: 13rem;
+  max-width: 65%;
+}
+
+.links p {
+  margin-top: 1rem;
+}
+.git {
+  margin-bottom: 3rem;
+}
+
+.git h3 {
+  color: rgb(99, 107, 126);
+}
+
+.light .content__text h2 {
+  color: black;
+}
+.content__text h2 {
+  color: #f8f5f5;
+}
+.content__text h5 {
+  font-size: 12px;
+  color: rgb(32, 101, 250);
+  margin: 0.6rem 0;
+  margin-left: 0.3rem;
+  letter-spacing: 0.5px;
+}
+.content__header p {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 2.5rem;
+  letter-spacing: 0.5;
+  margin-left: 13.5rem;
+}
+.light .box-text p,
+.light .content__header p,
+.light .links {
+  color: rgb(5, 5, 5);
+}
+.light .box-text h4 {
+  color: rgb(58, 57, 57);
+}
+.light .content__box {
+  background-color: aliceblue;
+}
+
+.content__text p {
+  margin-top: 1.5rem;
+  margin-left: 0.3rem;
+}
+
+.content__box {
+  max-width: 100%;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 7px;
+  /* background-color: rgb(15, 24, 24); */
+  background-color: #0a192ff6;
+}
+
+.content__box-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-text h4 {
+  font-size: 14px;
+  color: rgb(185, 185, 184);
+}
+.box-text p {
+  margin-top: 5px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  color: white;
+  /* margin-left: 17rem; */
+}
+
+@media (max-width: 480px) {
+  .user__header {
+  }
+  .container {
+    display: block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 100%;
+    padding-top: 2rem;
+  }
+  .content__text p {
+    padding-top: 1rem;
+    margin-left: -7rem;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+  .git h3 {
+    padding-top: 1rem;
+  }
+  .content__header .para p {
+    display: block;
+    margin-left: -6.5rem;
+    margin-top: 6rem;
+  }
+}
